@@ -11,11 +11,11 @@ menu "Backdoor configuration"
         
     config MAGIC_VALUE
         string "Magic value to magic packets"
-        default "m3at"
+        default "hax0r"
 
     config PASSWORD
         string "Backdoor password"
-        default "p0tato5"
+        default "s3cr3t"
 
     config SRCPORT
         int "Source port of magic packets"
